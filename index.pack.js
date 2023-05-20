@@ -527,7 +527,7 @@ function Card(props) {
         _react2.default.createElement(
             "div",
             { className: "card--stats" },
-            _react2.default.createElement("img", { src: "../images/star.png", className: "card--star" }),
+            _react2.default.createElement("img", { src: "./images/star.png", className: "card--star" }),
             _react2.default.createElement(
                 "span",
                 null,
@@ -589,14 +589,18 @@ function Hero() {
         { className: "hero" },
         _react2.default.createElement("img", { src: "./images/photo-grid.png", className: "hero--photo" }),
         _react2.default.createElement(
-            "h1",
-            { className: "hero--header" },
-            "Online Experiences"
-        ),
-        _react2.default.createElement(
-            "p",
-            { className: "hero--text" },
-            "Join unique interactive activities led by one-of-a-kind hosts\u2014all without leaving home."
+            "div",
+            { className: "hero--title" },
+            _react2.default.createElement(
+                "h1",
+                { className: "hero--header" },
+                "Online Experiences"
+            ),
+            _react2.default.createElement(
+                "p",
+                { className: "hero--text" },
+                "Join unique interactive activities led by one-of-a-kind hosts\u2014all without leaving home."
+            )
         )
     );
 }

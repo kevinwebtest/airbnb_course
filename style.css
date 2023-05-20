@@ -33,6 +33,10 @@ section {
 .hero {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.hero--title {
 }
 
 .hero--photo {
@@ -50,6 +54,7 @@ section {
 
 .cards-list {
     display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
